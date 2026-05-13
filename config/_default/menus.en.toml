@@ -25,6 +25,10 @@
   pageRef = "posts"
   weight = 3
 
+[[main]]
+name = "Code Snippets"
+pageRef = "codes"
+weight = 4
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

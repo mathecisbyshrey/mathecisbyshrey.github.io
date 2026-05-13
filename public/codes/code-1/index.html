@@ -29,16 +29,16 @@ window.MathJax = {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>AI, Machine Learning and Probability &middot; MATHECIS BY SHREE</title>
-  <meta name="title" content="AI, Machine Learning and Probability &middot; MATHECIS BY SHREE" />
+  <title>Python Code for Lorenz Attractor &middot; MATHECIS BY SHREE</title>
+  <meta name="title" content="Python Code for Lorenz Attractor &middot; MATHECIS BY SHREE" />
   
   <meta name="description" content="My personal website" />
   
   
   
-  <link rel="canonical" href="http://localhost:1313/posts/blog-3/" />
+  <link rel="canonical" href="http://localhost:1313/codes/code-1/" />
   
-  <link rel="alternate" type="application/rss+xml" href="/posts/blog-3/index.xml" title="MATHECIS BY SHREE" />
+  <link rel="alternate" type="application/rss+xml" href="/codes/code-1/index.xml" title="MATHECIS BY SHREE" />
   
   
   
@@ -89,18 +89,18 @@ window.MathJax = {
   
   
   
-  <meta property="og:url" content="http://localhost:1313/posts/blog-3/">
+  <meta property="og:url" content="http://localhost:1313/codes/code-1/">
   <meta property="og:site_name" content="MATHECIS BY SHREE">
-  <meta property="og:title" content="AI, Machine Learning and Probability">
+  <meta property="og:title" content="Python Code for Lorenz Attractor">
   <meta property="og:description" content="My personal website">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="http://localhost:1313/posts/blog-3/feature.png">
+    <meta property="og:image" content="http://localhost:1313/codes/code-1/feature.jpeg">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/posts/blog-3/feature.png">
-  <meta name="twitter:title" content="AI, Machine Learning and Probability">
+  <meta name="twitter:image" content="http://localhost:1313/codes/code-1/feature.jpeg">
+  <meta name="twitter:title" content="Python Code for Lorenz Attractor">
   <meta name="twitter:description" content="My personal website">
 
   
@@ -476,7 +476,7 @@ window.MathJax = {
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/posts/blog-3/feature_hu_ec6d80cf7f99d704.png);">
+    style="background-image:url(/codes/code-1/feature_hu_5bedf514b4ad2d3e.jpeg);">
     
 
 
@@ -498,7 +498,7 @@ window.MathJax = {
 
  <header>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">AI, Machine Learning and Probability</h1>
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Python Code for Lorenz Attractor</h1>
   <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
     
 
@@ -537,306 +537,111 @@ window.MathJax = {
       
     
   <script>
-    var oid = "views_posts\\Blog 3\\_index.md"
-    var oid_likes = "likes_posts\\Blog 3\\_index.md"
+    var oid = "views_codes\\Code 1\\_index.md"
+    var oid_likes = "likes_codes\\Code 1\\_index.md"
   </script>
   
   
   <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
   
   </header>
-  <section class="mt-12 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
-    
-    <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
-      <div class="toc ltr:pl-5 rtl:pr-5 lg:sticky lg:top-[140px]">
-        <details open id="TOCView" class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
-  <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#when-machines-start-guessing-smartly">When Machines Start Guessing Smartly</a></li>
-        <li><a href="#ai-doesnt-know--it-predicts">AI Doesn’t Know — It Predicts</a></li>
-        <li><a href="#classification-decisions-based-on-probability">Classification: Decisions Based on Probability</a></li>
-        <li><a href="#learning-from-data-where-do-these-probabilities-come-from">Learning from Data: Where Do These Probabilities Come From?</a></li>
-        <li><a href="#updating-beliefs-the-power-of-context">Updating Beliefs: The Power of Context</a></li>
-        <li><a href="#why-randomness-matters">Why Randomness Matters</a></li>
-        <li><a href="#real-world-examples">Real-World Examples</a></li>
-        <li><a href="#the-central-idea">The Central Idea</a></li>
-        <li><a href="#conclusion">Conclusion</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</details>
-<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
-  <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#when-machines-start-guessing-smartly">When Machines Start Guessing Smartly</a></li>
-        <li><a href="#ai-doesnt-know--it-predicts">AI Doesn’t Know — It Predicts</a></li>
-        <li><a href="#classification-decisions-based-on-probability">Classification: Decisions Based on Probability</a></li>
-        <li><a href="#learning-from-data-where-do-these-probabilities-come-from">Learning from Data: Where Do These Probabilities Come From?</a></li>
-        <li><a href="#updating-beliefs-the-power-of-context">Updating Beliefs: The Power of Context</a></li>
-        <li><a href="#why-randomness-matters">Why Randomness Matters</a></li>
-        <li><a href="#real-world-examples">Real-World Examples</a></li>
-        <li><a href="#the-central-idea">The Central Idea</a></li>
-        <li><a href="#conclusion">Conclusion</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</details>
-
-<script>
-
-  (function () {
-    var $toc = $('#TableOfContents');
-    if ($toc.length > 0) {
-      var $window = $(window);
-
-      function onScroll() {
-        var currentScroll = $window.scrollTop();
-        var h = $('.anchor');
-        var id = "";
-        h.each(function (i, e) {
-          e = $(e);
-          if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = decodeURIComponent(e.attr('id'));
-          }
-        });
-        var active = $toc.find('a.active');      
-        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-        active.each(function (i, e) {
-           
-            $(e).removeClass('active').siblings('ul').hide();
-          
-        });
-        $toc.find('a[href="#' + id + '"]').addClass('active');
-        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
-          $(e).children('a').parents('ul').show();          
-        });
-      }
-
-      $window.on('scroll', onScroll);
-      $(document).ready(function () {
-         
-          $toc.find('a').parent('li').find('ul').hide();
-        
-        onScroll();
-      });
-    }
-  })();
-
-</script>
-
-      </div>
-    </div>
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      
-<h3 class="relative group">When Machines Start Guessing Smartly 
-    <div id="when-machines-start-guessing-smartly" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#when-machines-start-guessing-smartly" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>When Netflix recommends a movie, when your phone predicts the next word you type, or when YouTube seems to know exactly what you want to watch next, it can almost feel like magic.</p>
-<p>But here’s the truth:</p>
-<p>AI isn’t “thinking” like a human.</p>
-<p>It is making very smart guesses using probability.</p>
+      <p>The following python code produces the <em><strong>Lorenz Attractor</strong></em>, which is a classic example of the <em>butterfly effect</em>. The governing set of differential equations are given by
+</p>
+$$
+\frac{dx}{dt} = \sigma(y-x)
+$$<p>
+</p>
+$$
+\frac{dy}{dt} = x(\rho - z) - y
+$$<p>
+</p>
+$$
+\frac{dz}{dt} = xy - \beta z
+$$<p>
+The code and the outcome obtained is given below</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plit</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">mpl_toolkits.mplot3d</span> <span class="kn">import</span> <span class="n">Axes3D</span>
+</span></span><span class="line"><span class="cl"><span class="n">sigma</span><span class="o">=</span><span class="mf">10.0</span>
+</span></span><span class="line"><span class="cl"><span class="n">rho</span><span class="o">=</span><span class="mf">28.0</span>
+</span></span><span class="line"><span class="cl"><span class="n">beta</span><span class="o">=</span><span class="mf">8.0</span><span class="o">/</span><span class="mf">3.0</span>
+</span></span><span class="line"><span class="cl"><span class="n">dt</span><span class="o">=</span><span class="mf">0.01</span>
+</span></span><span class="line"><span class="cl"><span class="n">steps</span><span class="o">=</span><span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"><span class="n">xs</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">(</span><span class="n">steps</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ys</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">(</span><span class="n">steps</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">zs</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">(</span><span class="n">steps</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">xs</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">ys</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">xs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">1.0</span><span class="p">,</span><span class="mf">1.05</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">steps</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">x</span><span class="o">=</span><span class="n">xs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">y</span><span class="o">=</span><span class="n">ys</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">z</span><span class="o">=</span><span class="n">zs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">xs</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">x</span><span class="o">+</span><span class="n">sigma</span><span class="o">*</span><span class="p">(</span><span class="n">y</span><span class="o">-</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="n">dt</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ys</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">y</span><span class="o">+</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="n">rho</span><span class="o">-</span><span class="n">z</span><span class="p">)</span><span class="o">-</span><span class="n">y</span><span class="p">)</span><span class="o">*</span><span class="n">dt</span>
+</span></span><span class="line"><span class="cl">    <span class="n">zs</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">z</span><span class="o">+</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">y</span><span class="o">-</span><span class="n">beta</span><span class="o">*</span><span class="n">z</span><span class="p">)</span><span class="o">*</span><span class="n">dt</span>
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="o">=</span><span class="n">plit</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">7</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">=</span><span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">,</span><span class="n">projection</span><span class="o">=</span><span class="s1">&#39;3d&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span><span class="n">ys</span><span class="p">,</span><span class="n">zs</span><span class="p">,</span><span class="n">lw</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s2">&#34;darkblue&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">&#34;Lorenz Attractor (Butterfly Effect)&#34;</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&#34;X Axis&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&#34;Y Axis&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set_zlabel</span><span class="p">(</span><span class="s2">&#34;Z Axis&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plit</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>
 
-<h3 class="relative group">AI Doesn’t Know — It Predicts 
-    <div id="ai-doesnt-know--it-predicts" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#ai-doesnt-know--it-predicts" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>At its core, artificial intelligence does not deal in certainty.</p>
-<p>It deals in likelihoods.</p>
-<p>Every time an AI system makes a decision, it is essentially answering questions like:</p>
-<ol>
-<li>What is the probability this email is spam?</li>
-<li>What is the probability the user will click this video?</li>
-<li>What word is most likely to come next in this sentence?</li>
-</ol>
 
-<h3 class="relative group">Classification: Decisions Based on Probability 
-    <div id="classification-decisions-based-on-probability" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#classification-decisions-based-on-probability" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>One of the most common tasks in machine learning is <strong>classification</strong>, i.e., placing things into categories.</p>
-<p>Consider spam detection as an example.</p>
-<p>An AI model might examine an email and conclude:</p>
-<ul>
-<li>\(95\%\) probability \(\rightarrow\) spam</li>
-<li>\(5\%\) probability \(\rightarrow\) not spam</li>
-</ul>
-<p>It does not know for certain.</p>
-<p>It simply chooses the option with the higher probability.</p>
-<p>This idea powers everything from fraud detection systems to medical diagnosis tools.</p>
 
-<h3 class="relative group">Learning from Data: Where Do These Probabilities Come From? 
-    <div id="learning-from-data-where-do-these-probabilities-come-from" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#learning-from-data-where-do-these-probabilities-come-from" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>So how does AI learn these probabilities?</p>
-<p>The answer is simple: <strong>Data</strong></p>
-<p>During training, machine learning models analyze massive amounts of information and begin detecting patterns such as:</p>
-<ul>
-<li>People who watched one video often watch another</li>
-<li>Certain words frequently appear together</li>
-<li>Some pixel patterns are more likely to represent a cat than a dog</li>
-</ul>
-<p>Over time, the model develops an internal statistical rule:</p>
-<blockquote>
-<p>“When I observe this pattern, this outcome is highly likely.”</p>
-</blockquote>
-<p>This is not memorization.</p>
-<p>It is the process of learning probability distributions from data.</p>
 
-<h3 class="relative group">Updating Beliefs: The Power of Context 
-    <div id="updating-beliefs-the-power-of-context" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-beliefs-the-power-of-context" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>One of the most powerful ideas behind AI is that probabilities change when new information becomes available.</p>
-<p>For example:</p>
-<ol>
-<li>The chance of rain might initially be \(30\%\)</li>
-<li>Given dark clouds, it may rise to \(80\%\)</li>
-</ol>
-<p>AI systems work in the same way.</p>
-<p>Predictions are continuously updated based on:</p>
-<ul>
-<li>Your past searches</li>
-<li>Your watch history</li>
-<li>Your current behavior</li>
-</ul>
-<p>This constant updating is what makes modern recommendation systems feel personalized.</p>
 
-<h3 class="relative group">Why Randomness Matters 
-    <div id="why-randomness-matters" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#why-randomness-matters" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Interestingly, AI systems do not always choose the single most probable option.</p>
-<p>Sometimes they intentionally introduce randomness.</p>
-<p>Why?</p>
-<p>Because always selecting the highest-probability choice can make systems:</p>
-<ul>
-<li>Repetitive</li>
-<li>Boring</li>
-<li>Too predictable</li>
-</ul>
-<p>By occasionally exploring less likely options, AI systems become:</p>
-<ul>
-<li>More creative in text generation</li>
-<li>More diverse in recommendations</li>
-<li>More human-like in behavior</li>
-</ul>
-<p>This balance between probability and randomness is extremely important.</p>
+<figure>
+      <img
+    class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="Lorenz Attractor"
+    srcset="
+      /codes/code-1/feature_hu_786ec3e68102cf27.jpeg 330w,
+      /codes/code-1/feature_hu_acb31ecec752bd52.jpeg 660w,
+      /codes/code-1/feature_hu_2963ea35312d6154.jpeg 1280w"
+    data-zoom-src="/codes/code-1/feature.jpeg"
+    src="/codes/code-1/feature.jpeg"
+  />
 
-<h3 class="relative group">Real-World Examples 
-    <div id="real-world-examples" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#real-world-examples" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Probability-driven AI appears almost everywhere:</p>
-<ul>
-<li>Streaming platforms recommend what you might enjoy next</li>
-<li>Search engines rank the most relevant results</li>
-<li>Voice assistants interpret what you intended to say</li>
-<li>Self-driving systems estimate the likelihood of obstacles</li>
-</ul>
-<p>Behind all of these applications lies the same central principle:</p>
-<blockquote>
-<p>“Choose the action with the highest chance of success.”</p>
-</blockquote>
-
-<h3 class="relative group">The Central Idea 
-    <div id="the-central-idea" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#the-central-idea" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>A powerful way to think about artificial intelligence is:</p>
-<blockquote>
-<p>“AI does not understand the world the way humans do.
-It builds a mathematical model of what is likely to happen.”</p>
-</blockquote>
-<p>It is not reasoning with meaning.</p>
-<p>It is reasoning with probability.</p>
-
-<h3 class="relative group">Conclusion 
-    <div id="conclusion" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>In the end, artificial intelligence is not magic.</p>
-<p>It is not intuition.</p>
-<p>It is not consciousness.</p>
-<p>It is mathematics quietly operating in the background, calculating what is most likely to happen next.</p>
-<p>And somehow, that is enough to make machines seem almost human.</p>
+  
+</figure>
+</p>
 
     </div>
 

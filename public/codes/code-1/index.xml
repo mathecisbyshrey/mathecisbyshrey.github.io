@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MATHECIS BY SHREE</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on MATHECIS BY SHREE</description>
+    <title>Python Code for Lorenz Attractor on MATHECIS BY SHREE</title>
+    <link>http://localhost:1313/codes/code-1/</link>
+    <description>Recent content in Python Code for Lorenz Attractor on MATHECIS BY SHREE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>shreya.math25@gmail.com (MATHECIS BY SHREE)</managingEditor>
     <webMaster>shreya.math25@gmail.com (MATHECIS BY SHREE)</webMaster>
     <copyright>© 2026 MATHECIS BY SHREE</copyright>
-    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/codes/code-1/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
